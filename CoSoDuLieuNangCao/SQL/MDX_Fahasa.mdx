@@ -1,0 +1,58 @@
+﻿
+
+--Phân tích Roll-up theo thuộc tính phân cấp của Dim_Time
+--số lượng sách bán theo ngày
+select non empty{[Dim Time].[Ngay Ban].members} on rows, 
+Non empty{[Measures].[So Luong]} on columns
+from [DWH Fahasa];
+
+--số lượng sách bán theo tháng
+select non empty{[Dim Time].[Thang Ban].members} on rows, 
+Non empty{[Measures].[So Luong]} on columns
+from [DWH Fahasa];
+
+--số lượng sách bán theo quý
+select non empty{[Dim Time].[Quy Ban].members} on rows, 
+non empty{[Measures].[So Luong]} on columns
+from [DWH Fahasa];
+
+--số lượng sách bán theo năm
+select [Dim Time].[Nam Ban].members on rows, 
+[Measures].[So Luong] on columns
+from [DWH Fahasa];
+
+--Cho biết tên chi nhánh bán nhiều sách nhất
+select TopCount([Dim Nhan Vien - Ma CN].[Ten Chi Nhanh].children,1,[Measures].[So Luong]) on columns,
+{[Measures].[So Luong]} on rows
+from [DWH Fahasa];
+
+--Cho biết số lượng bán theo từng sách
+select [Dim Sach].[Ten Sach].children on rows,
+ [Measures].[So Luong] on columns
+ from [DWH Fahasa];
+
+ -- cho biết top3 sách bán nhiều nhất
+ select topcount([Dim Sach].[Ten Sach].children,3,[Measures].[So Luong]) on columns,
+{[Measures].[So Luong]} on rows
+ from [DWH Fahasa];
+ 
+ --Cho biết doanh thu bánsách năm 2020
+ select [Dim Time].[Nam Ban].&[2020] on rows,
+[Measures].[Thanh Tien] on columns
+ from [DWH Fahasa];
+
+  --Cho biết số lượng bánsách năm 2020
+ select [Dim Time].[Nam Ban].&[2020] on rows,
+[Measures].[So Luong] on columns
+ from [DWH Fahasa];
+
+ --Hiển thị doanh thu đếm theo từng tháng trong năm
+ select non empty{[Measures].[Thanh Tien]} on columns,
+ non empty {crossjoin ([Dim Time].[Nam Ban].[Nam Ban],[Dim Time].[Thang Ban].[Thang Ban])} on rows
+ from [DWH Fahasa];
+
+  --Hiển thị số lượng đếm theo từng tháng trong năm
+  select non empty{[Measures].[So Luong]} on columns,
+ non empty {crossjoin ([Dim Time].[Nam Ban].[Nam Ban],[Dim Time].[Thang Ban].[Thang Ban])} on rows
+ from [DWH Fahasa];
+

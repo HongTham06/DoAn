@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using(Html.BeginForm()){
+    @Html.ValidationSummary(true)
+<form class="form-group" action="@Url.Action("XLDangKy")" method="post" >
+    <div class="container">
+        <div class="row" style="padding-top:40px">
+            <div class="col-lg-2 bg-light" style="border-radius:40px">
+          <h4 class="text-black">Dòng Điện Thoại </h4>
+          <ul class="list-unstyled">
+
+              <li> @Html.Action("loadnhasanxuat","Home")</li>
+          </ul>
+        <h3 class="text-black">Linh Kiện </h3>
+        <p><a href="#"> Các Sản Phẩm Kèm Theo</a></p>
+        <p> <a href="#">Pin Dự Phòng</a></p>
+        <p> <a href="#">Tai Nghe</a></p>
+        <p> <a href="#">LapTop</a></p>
+        <p> <a href="#">Cáp Sạc</a></p>
+
+        </div>
+             <div class="col-lg-7">
+<main role="main">
+
+	<div class="row">
+		<div class="col-md-12">
+			<form >
+				<h1>Đăng ký</h1>
+				<div class="form-group">
+					<div class="form-row">
+						<div class="col-md-12">
+							<label>Tên</label>
+							<input type="text" class="form-control" placeholder="Tên của bạn" required name="">
+						</div>
+						<div class="col-md-12">
+							<label>Họ</label>
+							<input type="text" class="form-control" placeholder="Họ của bạn" required name="">
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label>Email</label>
+						<input type="email" class="form-control" placeholder="Email của bạn" required name="">
+				</div>
+                <div class="form-group">
+					<label>Tài Khoản</label>
+						<input type="text" class="form-control" placeholder="Tài Khoản Của Bạn" required name="">
+				</div>
+				<div class="form-group">
+					<label>Mật khẩu</label>
+					<input type="password" class="form-control" placeholder="Password của bạn" required name="">
+				</div>
+				<div class="form-group">
+					<label>Nơi sống</label>
+					<select class="form-control">
+						<option selected>Nơi sống của bạn</option>
+						<option>TPHCM</option>
+						<option>Hà Nội</option>
+						<option>Khác</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label>Giới tính</label>
+					<div class="row" data-toggle="buttons">
+						<div class="col">
+							<label class="btn btn-outline-secondary">Nam
+								<input type="radio" name="gioi-tinh" value="Nam">
+							</label>
+						</div>
+						<div class="col">
+							<label class="btn btn-outline-secondary">Nữ
+							<input type="radio" name="gioi-tinh" value="Nữ">
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="checkbox" required name="">
+					<label>Tôi đồng ý điều khoản sử dụng</label>
+				</div>
+				<div class="form-group">
+					<button class="btn btn-success" type="submit">Đăng Ký</button>
+				</div>
+			</form>
+		</div>		
+	</div>
+    </main>
+</div>
+        </div>
+   
+</form>
+}

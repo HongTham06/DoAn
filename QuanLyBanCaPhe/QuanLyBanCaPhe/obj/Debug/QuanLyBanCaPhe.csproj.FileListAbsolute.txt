@@ -1,0 +1,57 @@
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.exe.config
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmDangNhap.resources
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmTrangChinh.resources
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.Properties.Resources.resources
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.exe
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.pdb
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\ThuVien.dll
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\ThuVien.pdb
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.exe
+C:\Users\USER\Desktop\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.pdb
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.exe.config
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.exe
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.pdb
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.exe
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.pdb
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\ThuVien.dll
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\ThuVien.pdb
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmDangNhap.resources
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmTrangChinh.resources
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.Properties.Resources.resources
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.csproj.GenerateResource.Cache
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.exe.config
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.exe
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.pdb
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.exe
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.pdb
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\ThuVien.dll
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\ThuVien.pdb
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.csprojResolveAssemblyReference.cache
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmDangNhap.resources
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmTrangChinh.resources
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.Properties.Resources.resources
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.csproj.GenerateResource.Cache
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmDoanhThu.resources
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.exe.config
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.exe
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.pdb
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmDangNhap.resources
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmDoanhThu.resources
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmTrangChinh.resources
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.Properties.Resources.resources
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.exe
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\QuanLyBanCaPhe.pdb
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\ThuVien.dll
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\bin\Debug\ThuVien.pdb
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.csproj.ResolveComReference.cache
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmEditLoai.resources
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.frmThanhToan.resources
+C:\Users\THAM\Downloads\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.csprojResolveAssemblyReference.cache
+C:\Users\THAM\Downloads\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.exe
+C:\Users\THAM\Downloads\QuanLyBanCaPhe\QuanLyBanCaPhe\obj\Debug\QuanLyBanCaPhe.pdb

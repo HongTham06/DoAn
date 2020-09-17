@@ -1,0 +1,165 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7b18b853-c126-409c-8fb3-8ca2d97b4090" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>QL YTE Dim</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="21c6fa0f-dbd0-4a4a-883f-960c50a88056">
+          <ID>Fact</ID>
+          <Name>Fact</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3d454710-c8f8-41dd-a0c7-32e2aae0b22a">
+            <DataSourceViewID>QL YTE Dim</DataSourceViewID>
+            <TableID>dbo_Fact</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Phieu Kham</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="92c0a47e-038d-4a1b-b770-7fbf28acbaac">
+          <ID>Dim Phieu Kham</ID>
+          <Name>Dim Phieu Kham</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="31321b76-25ec-4cbb-9bc9-f5046e082056">
+            <DataSourceViewID>QL YTE Dim</DataSourceViewID>
+            <TableID>dbo_Dim_PhieuKham</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Thuoc</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e1548eb2-5ba2-4d02-8e97-9ff346da8d95">
+          <ID>Dim Thuoc</ID>
+          <Name>Dim Thuoc</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="dfbb682b-1579-48ce-9130-52aab60d2e94">
+            <DataSourceViewID>QL YTE Dim</DataSourceViewID>
+            <TableID>dbo_Dim_Thuoc</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Time</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2a79a581-5ee7-459e-a8e9-1f0af0686e23">
+          <ID>Dim Time</ID>
+          <Name>Dim Time</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d3722052-d55e-4025-888a-eb9cc3590ca5">
+            <DataSourceViewID>QL YTE Dim</DataSourceViewID>
+            <TableID>dbo_Dim_Time</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Nhan Vien</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2dcde47f-67af-4e38-92d7-43933af8ad10">
+          <ID>Dim Nhan Vien</ID>
+          <Name>Dim Nhan Vien</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0542abc4-4923-41ad-a60f-82bc6d7d12a6">
+            <DataSourceViewID>QL YTE Dim</DataSourceViewID>
+            <TableID>dbo_Dim_NhanVien</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Benh Nhan</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="f1fa41f0-fdef-4840-a9d9-19cc0914ffae">
+          <ID>Dim Benh Nhan</ID>
+          <Name>Dim Benh Nhan</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6b7f5196-b37c-4b2e-85a2-bb2a85689c84">
+            <DataSourceViewID>QL YTE Dim</DataSourceViewID>
+            <TableID>dbo_Dim_BenhNhan</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Khoa</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="62c27b41-24aa-477d-9019-6c36cffb1d8c">
+          <ID>Dim Khoa</ID>
+          <Name>Dim Khoa</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a392adc7-2071-488b-b4bf-f987b34f9604">
+            <DataSourceViewID>QL YTE Dim</DataSourceViewID>
+            <TableID>dbo_Dim_Khoa</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim BH Yte</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c8caa80b-4b5f-4f0a-b63e-3d907d0db163">
+          <ID>Dim BH Yte</ID>
+          <Name>Dim BH Yte</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9537aa06-1c50-42f4-aba4-7369a8dbe5ab">
+            <DataSourceViewID>QL YTE Dim</DataSourceViewID>
+            <TableID>dbo_Dim_BHYte</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

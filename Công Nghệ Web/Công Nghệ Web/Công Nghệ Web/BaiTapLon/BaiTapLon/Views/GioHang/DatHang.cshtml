@@ -1,0 +1,88 @@
+﻿@{
+    ViewBag.Title = "DatHang";
+}
+@using BaiTapLon.Models;
+@*@model List<item>*@
+@*<h2>Thông tin hàng hóa</h2>
+<table align="center"border="1">
+    >
+         <tr style="text-align:center; font-weight:bold; background-color:black">
+        <td style="color:red"> Mã sản phẩm</td>
+        <td style="color:red"> Tên sản phẩm</td>
+        <td style="color:red"> Nhà sản xuất</td>
+        <td style="color:red"> Cấu hình</td>
+        <td style="color:red"> Tính năng</td>
+         <td style="color:red"> Hình ảnh</td>
+        <td style="color:red"> Giá</td>
+        <td style="color:red"> Số lượng mua</td>
+        <td style="color:red">Thành tiền</td>
+        <td width="50px"></td>
+        <td width="50px"></td>
+          @foreach (var i in Model)
+    {
+        <tr style="text-align:center; font-weight:bold; background-color:white">
+            <td style="color:blue">@i.masp</td>
+            <td style="color:blue">@i.tensp</td>
+            <td style="color:blue">@i.nhasx</td>
+            <td style="color:blue">@i.cauhinh</td>
+            <td style="color:blue">@i.tinhnang</td>
+            <td><img src="~/Content/HinhAnh/@i.hinhanh" /></td>
+            @using (Html.BeginForm("capnhatgiohang", "GioHang", new { @imasp = i.masp }))
+            {
+                <td>
+                <input type="number" min="1" name="txtSoLuong" value="@i.soluong" style="background-color:yellow" />
+                </td>
+                <td style="color:blue">@String.Format("{0:0,0}", i.gia)</td>
+            <td style="color:blue">@String.Format("{0:0,0}", i.thanhtien)</td>
+               
+            }
+        </tr>   
+    }
+    </tr>
+    <tr style="font-weight:bold; text-align:right; color:blue";>
+        <td colspan="12">
+      @Html.ActionLink("Trở về Giỏ Hàng","XemGoiHang","GioHang");
+        </td>
+    </tr>
+</table>*@
+
+<h2 style="text-align:center">Thông tin đặt hàng</h2>
+@{
+    KHACHHANG kh = (KHACHHANG)Session["TAIKHOAN"];
+}
+<table align="center">
+    @using (Html.BeginForm())
+    { 
+        @Html.ValidationSummary(true) 
+        <tr style="height:40px">    
+            <td> Họ Tên Khách Hàng</td>
+            <td style="font-weight:bold"> @kh.TENKH</td>
+        </tr>
+        <tr style="height:40px">    
+            <td> Địa Chỉ</td>
+            <td style="font-weight:bold"> @kh.DIACHI</td>
+        </tr>
+        <tr style="height:40px">
+            <td>Điện Thoại</td>
+            <td style="font-weight:bold"> @kh.SDT</td>
+        </tr>
+        <tr style="height:40px">
+            <td>Ngày Đặt</td>
+            <td style="font-weight:bold">@DateTime.Now.ToShortDateString()</td>
+        </tr>
+        <tr style="height:40px">
+            <td> Ngày Giao</td>
+            <td style="font-weight:bold">
+                <input type="date" name="Ngaygiao"/>
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td></td>
+            <td style="font-weight:bold">
+                @*<a href="@Url.Action("xacnhandonhang")" class="btn btn-danger">Đồng Ý</a>*@
+                <input type="submit" value="Đồng ý"/>
+                
+            </td>
+        </tr>
+    }
+</table>

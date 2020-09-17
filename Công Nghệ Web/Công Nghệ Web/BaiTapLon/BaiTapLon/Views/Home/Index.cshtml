@@ -1,0 +1,131 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@using BaiTapLon.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<SANPHAM>
+
+<form class="form-group" >
+<div class="container">
+    
+    <div class="row" style="padding-top:40px">
+            <div class="col-lg-2 bg-light" style="border-radius:40px">
+          <h4 class="text-black">Dòng Điện Thoại </h4>
+          <ul class="list-unstyled">
+
+              <li> @Html.Action("loadnhasanxuat","Home")</li>
+          </ul>
+        <h3 class="text-black">Linh Kiện </h3>
+        <p><a href="#"> Các Sản Phẩm Kèm Theo</a></p>
+        <p> <a href="#">Pin Dự Phòng</a></p>
+        <p> <a href="#">Tai Nghe</a></p>
+        <p> <a href="#">LapTop</a></p>
+        <p> <a href="#">Cáp Sạc</a></p>
+
+        </div>
+    <div class="col-lg-7">
+        
+<main role="main">
+       
+  <div class="album bg-light" style="border-radius:5px">
+      <h5 style="color:#0094ff;padding-top:10px;text-align:center">Danh Sách Điện Thoại</h5>
+    <div class="container-fluid">
+
+      <div class="row">
+           @foreach (var sp in Model)
+           {
+                     <div class="col-md-4">
+         <a href="@Url.Action("hienthichitiet", new { ms= @sp.MASANPHAM })" class="thumbnail" style="border:none">
+             <div class="card mb-12 shadow-sm">
+            <img width="100%" height="140px" src="~/Content/HinhAnh/@sp.HINHANH" />
+            <div class="card-body">
+              <p class="card-text text-danger" style="font-size:medium">@sp.TENSANPHAM</p>
+                <div style="border-bottom:2px solid #000"></div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group" style="margin-top:4px">
+                  <strong class="bg-gray">Giá</strong> : @sp.GIABAN
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+         </a>
+        </div>                                    
+           }
+          Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+                        <div>
+                            @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+                        </div>    
+      </div>
+       
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+    </div>
+  </div>
+
+</main>
+
+    </div>
+      <div class="col-lg-3 bg-light" style="border-radius:5px">
+          <div class="col-lg-12">
+              <div style="width:100%;margin:auto;text-align:center">
+                  <img width="100px" src="~/Content/HinhAnh/hotro.PNG" />
+                   <p>Quản Trị Viên: Võ Văn Tuấn</p>
+                  <p>Số gọi hỗ trợ: 0342629791</p>
+              </div>
+              <div style="border-bottom:3px solid #0094ff"></div>
+              <h5 style="color:#0094ff;padding-top:10px;text-align:center">Sản phẩm hót</h5>
+              <div style="width:100%">
+                   <div class="col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" height="140px" src="~/Content/HinhAnh/ss4.PNG" />
+            <div class="card-body">
+              <p class="card-text">SamSung</p>
+                <div style="border-bottom:2px solid #000"></div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group" style="margin-top:4px">
+                  <strong>Giá</strong> : 25000000
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+                  <div class="col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" height="140px" src="~/Content/HinhAnh/xm2.PNG" />
+            <div class="card-body">
+              <p class="card-text">XIAOMI</p>
+                <div style="border-bottom:2px solid #000"></div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group" style="margin-top:4px">
+                  <strong>Giá</strong> : 10000000
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+                  <div class="col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" height="140px" src="~/Content/HinhAnh/op5.PNG" />
+            <div class="card-body">
+              <p class="card-text">Oppo</p>
+                <div style="border-bottom:2px solid #000"></div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group" style="margin-top:4px">
+                  <strong>Giá</strong> : 19000000
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+              </div>
+          </div>
+    </div>
+</div>
+</div>
+
+</form>

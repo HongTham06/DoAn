@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DE565A7-63AB-4FBD-B365-CFE4189CB543}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OlapApp</RootNamespace>
+    <AssemblyName>OlapApp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Charts.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.CodeParser.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Dashboard.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v20.1.Win, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Dashboard.v20.1.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Data.Desktop.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Data.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.DataAccess.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v20.1.UI, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Diagram.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Diagram.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Images.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Map.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Map.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Office.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Pdf.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v20.1.Drawing, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Printing.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.TreeMap.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.TreeMap.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Utils.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Utils.v20.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Xpo.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraBars.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraCharts.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v20.1.UI, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraCharts.v20.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v20.1.Wizard, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraDiagram.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraDiagram.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v20.1.Win, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraGauges.v20.1.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraGrid.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraLayout.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraMap.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraNavBar.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraPrinting.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraReports.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraTreeList.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeMap.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraTreeMap.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChiNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiNhanh.Designer.cs">
+      <DependentUpon>frmChiNhanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChuDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuDe.Designer.cs">
+      <DependentUpon>frmChuDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCTDH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCTDH.Designer.cs">
+      <DependentUpon>frmCTDH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDonHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDonHang.Designer.cs">
+      <DependentUpon>frmDonHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHome.Designer.cs">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKH.Designer.cs">
+      <DependentUpon>frmKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhanVien.Designer.cs">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNXB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNXB.Designer.cs">
+      <DependentUpon>frmNXB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSach.Designer.cs">
+      <DependentUpon>frmSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWareHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWareHouse.Designer.cs">
+      <DependentUpon>frmWareHouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KetNoi.cs" />
+    <Compile Include="LoadDatabase.cs" />
+    <Compile Include="LoadDB.cs">
+      <DependentUpon>LoadDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoadDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoadDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoadDBBS.cs" />
+    <Compile Include="LoadDL.cs" />
+    <Compile Include="LoadKho.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoadKho.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrungGiang.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChiNhanh.resx">
+      <DependentUpon>frmChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuDe.resx">
+      <DependentUpon>frmChuDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCTDH.resx">
+      <DependentUpon>frmCTDH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDonHang.resx">
+      <DependentUpon>frmDonHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKH.resx">
+      <DependentUpon>frmKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhanVien.resx">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNXB.resx">
+      <DependentUpon>frmNXB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSach.resx">
+      <DependentUpon>frmSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWareHouse.resx">
+      <DependentUpon>frmWareHouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="LoadDB.xsc">
+      <DependentUpon>LoadDB.xsd</DependentUpon>
+    </None>
+    <None Include="LoadDB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoadDB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="LoadDB.xss">
+      <DependentUpon>LoadDB.xsd</DependentUpon>
+    </None>
+    <None Include="LoadKho.xsc">
+      <DependentUpon>LoadKho.xsd</DependentUpon>
+    </None>
+    <None Include="LoadKho.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoadKho.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="LoadKho.xss">
+      <DependentUpon>LoadKho.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Charts.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.CodeParser.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Dashboard.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Dashboard.v20.1.Win.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Data.Desktop.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Data.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.DataAccess.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Diagram.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Images.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Map.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Office.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Pdf.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Printing.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.TreeMap.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Utils.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Utils.v20.1.UI.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.Xpo.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraBars.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraCharts.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraCharts.v20.1.UI.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraDiagram.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraEditors.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraGauges.v20.1.Presets.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraGauges.v20.1.Win.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraGrid.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraLayout.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraMap.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraNavBar.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraPrinting.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraReports.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraTreeList.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraTreeMap.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Dashboard.v20.1.Core.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Dashboard.v20.1.Win.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Data.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Map.v20.1.Core.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraGauges.v20.1.Presets.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll" />
+    <Analyzer Include="D:\how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477-18.2.3-\CS\Dashboard_DashboardDataProviders\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

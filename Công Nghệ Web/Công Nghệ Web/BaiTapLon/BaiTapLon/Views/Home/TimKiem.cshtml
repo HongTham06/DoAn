@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "TimKiem";
+}
+
+@using BaiTapLon.Models;
+@model List<SANPHAM>
+
+  @foreach (var sp in Model)
+      { 
+             <div class="row">
+    <div class="col-md-3">
+       <a href="@Url.Action("hienthichitiet", new { ms= @sp.MASANPHAM })" class="thumbnail" style="border:none">
+        <h2 > @sp.TENSANPHAM.</h2>
+        <img src="~/Content/HinhAnh/@sp.HINHANH" />
+    </div>
+    <div class="col-md-9">
+        <h2>@sp.GIABAN</h2>
+        <h2>Cấu hình: @sp.CAUHINH</h2>
+        <h2>Tính năng: @sp.TINHNANGNOIBAT</h2>
+        <a href="@Url.Action("ThemGioHang", "GioHang", new { ms = @sp.MASANPHAM })" class="btn btn-primary" style="font-size:x-large">Đặt mua</a>
+    </div>
+</div>
+    
+      }

@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "hienthichitiet";
+}
+
+@using BaiTapLon.Models
+@model SANPHAM
+<div>
+    <div style="width:40%; float:left; border-left:dotted 1px; border-color:azure">
+        <p style="font-weight:bold"><Span style="color:darkgreen; font-size:large">@Model.TENSANPHAM</Span></p>
+        <img src="~/Content/HinhAnh/@Model.HINHANH" width="100%" />
+    </div>
+    <div style="width:60%; float:left; padding:10px">
+        <p style="font-weight:bold"><Span style="color:red; font-size:16pt">@Model.GIABAN đ</Span></p>
+        <p style="text-align:justify"><Span style="font-size:x-large">Cấu hình: @Model.CAUHINH</Span></p>
+        <p style="text-align:justify"><Span style="font-size:x-large">Tính năng: @Model.TINHNANGNOIBAT</Span></p>
+        <a href="@Url.Action("ThemGioHang", "GioHang", new { ms = @Model.MASANPHAM })" class="btn btn-primary" style="font-size:large">Thêm Vào Giỏ Hàng</a>
+    </div>
+</div>

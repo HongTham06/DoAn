@@ -1,0 +1,62 @@
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLTTBHYT.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmMain.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLKHOA.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLBenhNhan.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLBenhLy.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLCTHD.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLGiuongBenh.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLHoaDon.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLNCC.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLNhanVien.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLPhieuKham.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLPhieuNhap.resources
+C:\Users\LTD\Desktop\olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLThuoc.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmMain.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLBenhNhan.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLCTHD.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLGiuongBenh.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLHoaDon.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLKHOA.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLNhanVien.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLPhieuKham.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLThuoc.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLTTBHYT.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+D:\New folder\Nhom3_DoTHiHongTham_Tuan9\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmChart.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmMain.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLBenhNhan.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLCTHD.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmFact.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLHoaDon.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLKHOA.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLNhanVien.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLPhieuKham.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLThuoc.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmQLTTBHYT.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.ResolveComReference.cache
+D:\New folder\Nhom3_DoTHiHongTham_olap\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.frmDWH.resources

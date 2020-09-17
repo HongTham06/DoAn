@@ -1,0 +1,5 @@
+Vào cmd gõ cd  C:\MongoDB\Server\3.2\bin
+mongod --dbpath C:\MongoDB\data
+Thêm 1 cmd nửa gõ mongo
+Tạo Database, Collection giống tên trong Word
+Tiến hành chạy thử nghiệm trên VS

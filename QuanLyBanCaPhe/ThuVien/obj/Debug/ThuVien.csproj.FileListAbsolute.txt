@@ -1,0 +1,25 @@
+C:\Users\USER\Desktop\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\QuanLyBanCaPhe\ThuVien\bin\Debug\ThuVien.dll
+C:\Users\USER\Desktop\QuanLyBanCaPhe\ThuVien\bin\Debug\ThuVien.pdb
+C:\Users\USER\Desktop\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.dll
+C:\Users\USER\Desktop\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.pdb
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\ThuVien\bin\Debug\ThuVien.dll
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\ThuVien\bin\Debug\ThuVien.pdb
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.dll
+E:\LuuDuLieuSinhVien\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.pdb
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\ThuVien\bin\Debug\ThuVien.dll
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\ThuVien\bin\Debug\ThuVien.pdb
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.csprojResolveAssemblyReference.cache
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.dll
+D:\BT\HK_1_Nam3\CongNghe.Net\CongNghe.Net\dean\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.pdb
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\ThuVien\bin\Debug\ThuVien.dll
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\ThuVien\bin\Debug\ThuVien.pdb
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.dll
+C:\Users\USER\Desktop\QuanLyBanCaPhe (2)\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.pdb
+C:\Users\THAM\Downloads\QuanLyBanCaPhe\ThuVien\bin\Debug\ThuVien.dll
+C:\Users\THAM\Downloads\QuanLyBanCaPhe\ThuVien\bin\Debug\ThuVien.pdb
+C:\Users\THAM\Downloads\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.csprojResolveAssemblyReference.cache
+C:\Users\THAM\Downloads\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.dll
+C:\Users\THAM\Downloads\QuanLyBanCaPhe\ThuVien\obj\Debug\ThuVien.pdb

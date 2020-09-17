@@ -1,0 +1,112 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>DWH Fahasa</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=ASUS;Password=;User ID=;Initial Catalog=DWH_Fahasa</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Dim Nha Xuat Ban</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Chu De</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Sach</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Nhan Vien</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Khach Hang</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Time</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Chi Nhanh</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>DWH Fahasa</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dim Sach</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Sach</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>FACT</ID>
+            <Partitions>
+              <Partition>
+                <ID>FACT</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Time</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Time</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Khach Hang</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Khach Hang</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Nhan Vien</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Nhan Vien</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Nha Xuat Ban</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Nha Xuat Ban</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Chu De</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Chu De</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Chi Nhanh</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Chi Nhanh</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

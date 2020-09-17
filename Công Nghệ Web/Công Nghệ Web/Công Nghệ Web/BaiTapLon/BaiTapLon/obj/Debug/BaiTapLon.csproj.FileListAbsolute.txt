@@ -1,0 +1,160 @@
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\BaiTapLon.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\BaiTapLon.pdb
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Antlr3.Runtime.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\EntityFramework.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Microsoft.Web.Infrastructure.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Newtonsoft.Json.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Net.Http.Formatting.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.WebHost.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Mvc.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Optimization.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Providers.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Razor.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Deployment.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Razor.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\WebGrease.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\EntityFramework.xml
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Newtonsoft.Json.xml
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Net.Http.Formatting.xml
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.xml
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.WebHost.xml
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Mvc.xml
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Razor.xml
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.xml
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Deployment.xml
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Razor.xml
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.dll
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.pdb
+D:\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.csprojResolveAssemblyReference.cache
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\BaiTapLon.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\BaiTapLon.pdb
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Antlr3.Runtime.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\EntityFramework.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Newtonsoft.Json.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Net.Http.Formatting.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.WebHost.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Mvc.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Optimization.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Providers.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Razor.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\WebGrease.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\EntityFramework.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Newtonsoft.Json.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Net.Http.Formatting.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.WebHost.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Mvc.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Razor.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.csprojResolveAssemblyReference.cache
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.pdb
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.Mvc.dll
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.xml
+C:\Users\Mikasa\Desktop\New folder\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.Mvc.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\BaiTapLon.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\BaiTapLon.pdb
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Antlr3.Runtime.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\EntityFramework.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Newtonsoft.Json.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.Mvc.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Net.Http.Formatting.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.WebHost.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Mvc.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Optimization.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Providers.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Razor.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\WebGrease.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.Mvc.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\EntityFramework.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Newtonsoft.Json.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Net.Http.Formatting.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.WebHost.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Mvc.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Razor.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.dll
+C:\Users\Dell\Downloads\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.pdb
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\BaiTapLon.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\BaiTapLon.pdb
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Antlr3.Runtime.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\EntityFramework.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Microsoft.Web.Infrastructure.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Newtonsoft.Json.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.Mvc.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Net.Http.Formatting.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.WebHost.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Mvc.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Optimization.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Providers.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Razor.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Deployment.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Razor.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\WebGrease.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.Mvc.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\EntityFramework.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Newtonsoft.Json.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Net.Http.Formatting.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Http.WebHost.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Mvc.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Razor.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Deployment.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Razor.xml
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.csprojResolveAssemblyReference.cache
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.dll
+D:\Công Nghệ Web\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.pdb
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\BaiTapLon.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\BaiTapLon.pdb
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Antlr3.Runtime.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\EntityFramework.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Newtonsoft.Json.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.Mvc.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Mvc.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Optimization.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Providers.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Razor.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Razor.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\WebGrease.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.xml
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\PagedList.Mvc.xml
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\EntityFramework.xml
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\Newtonsoft.Json.xml
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Mvc.xml
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.Razor.xml
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.xml
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\bin\System.Web.WebPages.Razor.xml
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.csprojResolveAssemblyReference.cache
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.dll
+C:\Users\THAM\Desktop\Công Nghệ Web\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.pdb

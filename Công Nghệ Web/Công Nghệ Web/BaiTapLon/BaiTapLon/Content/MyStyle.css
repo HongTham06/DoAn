@@ -1,0 +1,73 @@
+﻿body {
+    font-family: sans-serif;
+    color: gray;
+    width: 960px;
+    margin: 0px auto;
+    background-image: linear-gradient(#f8f9fa,#f8f9fa);
+    padding-top: 0px;
+}
+.div
+{
+    display:block;
+}
+.center1
+{
+    text-align: center;
+}
+/*==Style cho menu===*/
+.center
+{
+    text-align: center;
+    border: 3px solid green ;
+}
+.menu
+{   
+    
+    background: #f8f9fa;
+    font-family:VNI-Bodon;
+    float:left;
+}
+.menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+.menu li {
+  color: #f8f9fa;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+.input[type="text"] {
+      width: 130px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-radius: 4px;
+      outline:none;
+      padding: 12px 14px;
+    }
+
+.box {  
+border: 1px solid rgb(200, 200, 200);   
+box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px; 
+background: rgba(200, 200, 200, 0.1);   
+border-radius: 4px; top:50px;
+}
+ 
+.h2 {    
+text-align:center;  
+color:#fff;
+}
+.form-control { 
+margin-bottom: 10px;
+}
+.login-screen-bg {  
+background-color:gray;
+}

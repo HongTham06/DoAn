@@ -1,0 +1,165 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fcbd38cd-a6d0-4e68-944f-ffb64d4bd2bb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DWH Fahasa</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Dim Sach</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3938515d-8b37-460b-9821-37cafd52d29a">
+          <ID>Dim Sach</ID>
+          <Name>Dim Sach</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8458be40-c869-471a-bf37-9112410d6fdc">
+            <DataSourceViewID>DWH Fahasa</DataSourceViewID>
+            <TableID>dbo_Dim_Sach</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>FACT</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1c567c6d-9c2e-4a75-a0b9-0b3eaf5ae2c6">
+          <ID>FACT</ID>
+          <Name>FACT</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2e9e1caa-bf32-43e7-bdb1-f73f0c0d6785">
+            <DataSourceViewID>DWH Fahasa</DataSourceViewID>
+            <TableID>dbo_FACT</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Time</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8a03330b-14d2-459e-af9a-2cd7f467ecaa">
+          <ID>Dim Time</ID>
+          <Name>Dim Time</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="649029c9-cc6f-4b56-9eaa-dc41b0482f04">
+            <DataSourceViewID>DWH Fahasa</DataSourceViewID>
+            <TableID>dbo_Dim_Time</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Khach Hang</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="5e44312e-707c-4921-b8ba-9e36a006347e">
+          <ID>Dim Khach Hang</ID>
+          <Name>Dim Khach Hang</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ecaa0027-f98a-4d80-9f9a-9bdcd2b109bf">
+            <DataSourceViewID>DWH Fahasa</DataSourceViewID>
+            <TableID>dbo_Dim_KhachHang</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Nhan Vien</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="db98ff21-f1ce-4b52-a33c-37e55b878676">
+          <ID>Dim Nhan Vien</ID>
+          <Name>Dim Nhan Vien</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d1971cbb-4230-48e0-b8f1-888d38521bef">
+            <DataSourceViewID>DWH Fahasa</DataSourceViewID>
+            <TableID>dbo_Dim_NhanVien</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Nha Xuat Ban</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="28eaf28b-3980-4ebe-92ea-0d8b3919ea38">
+          <ID>Dim Nha Xuat Ban</ID>
+          <Name>Dim Nha Xuat Ban</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a64d352f-7a5e-44d6-b0c8-f57071842338">
+            <DataSourceViewID>DWH Fahasa</DataSourceViewID>
+            <TableID>dbo_Dim_NhaXuatBan</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Chu De</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="cc0231c5-9db3-43c5-9314-6437a394b6d5">
+          <ID>Dim Chu De</ID>
+          <Name>Dim Chu De</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f31a4b8f-6597-4c93-bbaf-37098f22a03b">
+            <DataSourceViewID>DWH Fahasa</DataSourceViewID>
+            <TableID>dbo_Dim_ChuDe</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Chi Nhanh</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e300e634-8613-4aaa-90aa-be0883159607">
+          <ID>Dim Chi Nhanh</ID>
+          <Name>Dim Chi Nhanh</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7c5e92e1-1e16-4504-9b50-2092cd49abb4">
+            <DataSourceViewID>DWH Fahasa</DataSourceViewID>
+            <TableID>dbo_Dim_ChiNhanh</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

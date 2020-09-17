@@ -1,0 +1,12 @@
+ SELECT  { [Measures].[SL] } ON COLUMNS, 
+ NON EMPTY { ([Dim Time].[Quy Ban].[Quy Ban].ALLMEMBERS ) }
+ ON ROWS FROM [QL YTE Dim] ;
+
+  SELECT  { [Measures].[Thanh Tien] } ON COLUMNS, 
+  NON EMPTY { ([Dim Benh Nhan].[Ten BN].[Ten BN].ALLMEMBERS ) } 
+  ON ROWS FROM [QL YTE Dim] ;
+
+   SELECT { [Measures].[Dim Benh Nhan Count] } 
+   ON COLUMNS, NON EMPTY { ([Dim Phieu Kham].[Ngay Kham].[Ngay Kham].ALLMEMBERS ) }
+    ON ROWS FROM [QL YTE Dim] 
+   

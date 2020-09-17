@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "loadnhasanxuat";
+}
+@using BaiTapLon.Models;
+@model List<NHASANXUAT>
+<ul class="nav">
+    
+@foreach (var cd in Model)
+{
+    <li class="nav-item" style="font-size:x-small"><a href="@Url.Action("loaddienthoaitheonhasanxuat", new { dt = @cd.MANSX })"> @cd.MANSX </a> </li>
+}
+</ul>

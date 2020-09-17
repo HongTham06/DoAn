@@ -1,0 +1,1069 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7d9d904c-f451-46cb-bfa5-8f7dbfb569fa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DWH Fahasa</ID>
+  <Name>DWH Fahasa</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5392" scrolltop="831" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="18918" y="12779" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_NhanVien" left="5420" top="4702" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_NhanVien" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FACT" left="5420" top="9404" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FACT" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Time" left="10820" top="10039" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Time" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Sach" left="20" top="9192" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Sach" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_ChuDe" left="20" top="4913" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_ChuDe" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_NhaXuatBan" left="20" top="16011" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_NhaXuatBan" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_ChiNhanh" left="5420" top="0" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_ChiNhanh" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_KhachHang" left="5420" top="15799" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_KhachHang" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6521" top="1803" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_NV_CN]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="1" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6920" y="2302" />
+              <point x="6920" y="4702" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6521" top="6505" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_F_NV]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6920" y="7004" />
+              <point x="6920" y="9404" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="11002" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_S_fact]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="17" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="11401" />
+              <point x="5420" y="11401" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6521" top="13099" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_F_S]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="2" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6920" y="15799" />
+              <point x="6920" y="13399" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8120" top="11002" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FACT_Dim_Time1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10820" y="11401" />
+              <point x="8420" y="11401" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="13311" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_S_NXB]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="4" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="16011" />
+              <point x="1520" y="13611" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="6293" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_S_CD]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="6792" />
+              <point x="1520" y="9192" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5392</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>831</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="4b5d519f-0ba4-4812-843c-80a6e2fb60c7">
+      <ID>Dim Sach</ID>
+      <Name>Dim Sach</Name>
+      <DimensionID>Dim Sach</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4fef8c91-259a-4cd7-ad1b-84dbd539c6e7">
+          <AttributeID>Ma Sach</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7cf5deb5-47b4-4195-90d1-7a8c0752777a">
+          <AttributeID>Ma NXB</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4aa7ea10-c206-4975-8ced-d7c71f261ca5">
+          <AttributeID>Ma CD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a26e2dc-76a8-4933-a53f-12349b83fa18">
+          <AttributeID>Ten Sach</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="102bbe06-6516-431b-a6cf-81819dea3020">
+          <AttributeID>Ten TG</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d9ae4ce-4b0f-41e7-951e-0e587c911ba6">
+          <AttributeID>So Lan Ban</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d1acced4-6cdc-4f0e-8815-1ea8326bd411">
+          <AttributeID>Gia Ban</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="de83107f-657d-46b0-a47e-f4d5d1a149c5">
+          <AttributeID>Nam XB</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="72d0cbd3-40c7-4875-83b8-499966aafa4c">
+      <ID>Dim Nha Xuat Ban</ID>
+      <Name>Dim Nha Xuat Ban</Name>
+      <DimensionID>Dim Nha Xuat Ban</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b1a43c71-6e67-4571-bf30-266a0309a876">
+          <AttributeID>Ma NXB</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f5cc3d6f-c890-4403-933d-a6b39a99b0ed">
+          <AttributeID>Ten NXB</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c913d6b7-2856-4775-96b9-2eaae1bef162">
+      <ID>Dim Chu De</ID>
+      <Name>Dim Chu De</Name>
+      <DimensionID>Dim Chu De</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0d239373-a7dc-4934-825e-45d25637d311">
+          <AttributeID>Ma CD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b597aca1-960a-42df-894d-14909edb1fdb">
+          <AttributeID>Ten CD</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="1f836886-6833-4392-82fd-4c5b6753b5a9">
+      <ID>Dim Nhan Vien</ID>
+      <Name>Dim Nhan Vien</Name>
+      <DimensionID>Dim Nhan Vien</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c2223b2c-6448-46f5-9f58-667cff296654">
+          <AttributeID>Ma NV</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="360a51c5-36ae-4667-901a-52324f999445">
+          <AttributeID>Ma CN</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc07c655-9672-4219-b067-e8f59ffac2b7">
+          <AttributeID>Ho Ten</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="bba8b040-8e31-495b-ab2e-dec0424adffc">
+      <ID>Dim Khach Hang</ID>
+      <Name>Dim Khach Hang</Name>
+      <DimensionID>Dim Khach Hang</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9e170836-ff74-4282-bab5-526c48431fb6">
+          <AttributeID>Ma KH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f98ea46-337a-4378-984f-0e6874383adb">
+          <AttributeID>Ho Ten</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="db2e14cd-19dd-4bc1-a595-40d43080963e">
+          <AttributeID>Dia Chi</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="412856a1-d86a-45fb-9362-03b431d58a0e">
+      <ID>Dim Time</ID>
+      <Name>Dim Time</Name>
+      <DimensionID>Dim Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="762e4333-53bf-488e-8575-b83191d0c509">
+          <AttributeID>Ngay Ban</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b0fac152-0d25-457e-bb34-15b4c2a30462">
+          <AttributeID>Thang Ban</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5976a9c9-fb56-4828-b0fd-fd096509aa42">
+          <AttributeID>Nam Ban</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f2bbae3d-7697-4756-aefe-8f67dca3309b">
+          <AttributeID>Quy Ban</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d77c8a2a-f6d6-4ca0-a2b6-380509e44ff5">
+      <ID>Dim Chi Nhanh</ID>
+      <Name>Dim Chi Nhanh</Name>
+      <DimensionID>Dim Chi Nhanh</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3f061e2e-406a-42a9-a51f-3428b90e6c13">
+          <AttributeID>Ma CN</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06184294-0227-48bc-802d-acdb34c2c879">
+          <AttributeID>Ten Chi Nhanh</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4f759cc9-de4e-4896-a69f-baf44f4bbe0f">
+          <AttributeID>Dia Chi</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="382c8e65-ff80-4f47-ad0b-0643e79b1663">
+      <ID>Dim Nhan Vien - Ma CN</ID>
+      <Name>Dim Nhan Vien - Ma CN</Name>
+      <DimensionID>Dim Chi Nhanh</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="09ffed72-833b-4e52-833e-40fb7cce4092">
+          <AttributeID>Ma CN</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d1d7c997-d98f-4130-a5ee-3a8550591321">
+          <AttributeID>Ten Chi Nhanh</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="13395b7e-1d67-4007-b096-e7b842b3a6b3">
+          <AttributeID>Dia Chi</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="e7033177-eb0f-4670-8389-2bfdf647369c">
+      <ID>Dim Sach</ID>
+      <Name>Dim Sach</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="d3558d46-f020-40a0-bac1-c25c85d19a51">
+          <ID>So Lan Ban</ID>
+          <Name>So Lan Ban</Name>
+          <Source dwd:design-time-name="7d3ec07c-65cc-4421-8777-d11f31f5dabf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a7627bf5-e809-4ae2-88a7-3ca3df70b543">
+              <TableID>dbo_Dim_Sach</TableID>
+              <ColumnID>SoLanBan</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6df8609d-4cd2-47e9-addd-cfca930c1d7a">
+          <ID>Gia Ban</ID>
+          <Name>Gia Ban</Name>
+          <Source dwd:design-time-name="43ee47ac-7170-4f01-a0d3-49fbc2244f3a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6e688e3c-9fc1-4222-b14e-ad883f4786ff">
+              <TableID>dbo_Dim_Sach</TableID>
+              <ColumnID>GiaBan</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b080efbd-f1bc-4766-840b-b53029f6b859">
+          <ID>Nam XB</ID>
+          <Name>Nam XB</Name>
+          <Source dwd:design-time-name="f23d830c-bd04-4828-abd8-615bc213332d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="65f0f0a9-649a-4b6d-b583-405db1c31cec">
+              <TableID>dbo_Dim_Sach</TableID>
+              <ColumnID>NamXB</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7c35854a-50ff-4c94-a807-8247a7e2d313">
+          <ID>Dim Sach Count</ID>
+          <Name>Dim Sach Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="8787809e-ae51-467b-b727-e64325bb0dfc">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="967638ab-8224-46e5-8566-edeef135f4e6">
+              <TableID>dbo_Dim_Sach</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="2c4e2e97-3bc9-4c42-b5d5-7091194ad4ad">
+          <CubeDimensionID>Dim Sach</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4d5fd97e-70b3-4f4c-951a-51dbef81681e">
+              <AttributeID>Ma Sach</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="97019470-52f6-4eb5-9743-a172ea7e1ec9">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6e11003b-5523-4eb7-b7e1-5ab691b2d395">
+                    <TableID>dbo_Dim_Sach</TableID>
+                    <ColumnID>MaSach</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ee57dba7-8be5-473b-a790-4a385e073274">
+          <CubeDimensionID>Dim Nha Xuat Ban</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9df77ea6-02ab-4d66-80f6-030eb78be308">
+              <AttributeID>Ma NXB</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e13e00d3-9825-4ff2-a655-5ca1226ae755">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="114e61d5-406d-4a08-81ce-dbae10dfd7da">
+                    <TableID>dbo_Dim_Sach</TableID>
+                    <ColumnID>MaNXB</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4001fb32-8b19-459a-9a70-63c85f674d7c">
+          <CubeDimensionID>Dim Chu De</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b1ca897e-3b7b-42cf-973a-1f62209dba11">
+              <AttributeID>Ma CD</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c8022238-968a-4596-a3e5-f2f7dfd6a201">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="12c518ec-9d0a-4591-ba11-f6a4759e9dc7">
+                    <TableID>dbo_Dim_Sach</TableID>
+                    <ColumnID>MaCD</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="20ae38a4-ebf5-490f-a492-aa81d0712abf">
+      <ID>FACT</ID>
+      <Name>FACT</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5a55fcd2-06cb-4165-aa5c-a5a968692705">
+          <ID>So Luong</ID>
+          <Name>So Luong</Name>
+          <Source dwd:design-time-name="563bb23f-eaf6-496d-8ae7-57cf53171a6c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8c8abbf9-b5d6-4146-81fd-c24b6df9a4c2">
+              <TableID>dbo_FACT</TableID>
+              <ColumnID>SoLuong</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b8a6594d-6ff4-4ff7-910d-4d7d3a1d8e81">
+          <ID>Don Gia</ID>
+          <Name>Don Gia</Name>
+          <Source dwd:design-time-name="aa2537c1-4ba7-4951-92a4-5fa5a7599aca">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="44e32727-1169-4ad9-8686-c30854868fbd">
+              <TableID>dbo_FACT</TableID>
+              <ColumnID>DonGia</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ea2fdb9b-6d43-460e-876c-8b52e6e2828c">
+          <ID>Thanh Tien</ID>
+          <Name>Thanh Tien</Name>
+          <Source dwd:design-time-name="fec8ec3d-6605-48e1-9f8c-ddfcd56e35cb">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b5ca1366-c26e-44a1-b35f-cb426f571031">
+              <TableID>dbo_FACT</TableID>
+              <ColumnID>ThanhTien</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="575a2c40-613d-430a-8e6a-776a86aebf0a">
+          <ID>FACT Count</ID>
+          <Name>FACT Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="7e61d77a-0e8f-488d-ac90-49e176b66ccc">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e4682848-eaf9-4b78-bd27-0f03b335284d">
+              <TableID>dbo_FACT</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="50be07d5-6544-45fb-a82d-cbeafa70885a">
+          <CubeDimensionID>Dim Sach</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1a84dfae-8dfc-4523-bb57-ef9986edb0f9">
+              <AttributeID>Ma Sach</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dbf84cfd-4711-47b3-9073-5e4c84ef33db">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="73942ade-ce65-4161-a4d3-1f3d4610199b">
+                    <TableID>dbo_FACT</TableID>
+                    <ColumnID>MaSach</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8ac87c25-6310-4ccf-8360-c1f0468725d0">
+          <CubeDimensionID>Dim Nhan Vien</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="71908e7e-e406-4c02-b401-d32ba64476b9">
+              <AttributeID>Ma NV</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2f0357a2-55f9-47da-bee2-d4cf9a6076cf">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6e60633b-d8e3-4553-afb3-f000cf03cb40">
+                    <TableID>dbo_FACT</TableID>
+                    <ColumnID>MaNV</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1d966ded-cde1-4748-8748-926894ae94bc">
+          <CubeDimensionID>Dim Khach Hang</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e6424947-c32e-457c-8a6c-a4be6cb45705">
+              <AttributeID>Ma KH</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="95567719-dcbe-4d7f-984f-aa46057a8ef1">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bb1802cb-d0b4-4364-96cb-ccadae66cd4b">
+                    <TableID>dbo_FACT</TableID>
+                    <ColumnID>MaKH</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e42b0207-9f56-4dc2-9d90-6a7de8aebc75">
+          <CubeDimensionID>Dim Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7039f5af-c5fe-43fb-bbc0-92c8d2acbcba">
+              <AttributeID>Ngay Ban</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3de6abca-edaf-406f-8bc9-f7c1933ff7f5">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ee689375-5b48-4380-87e7-30954430c448">
+                    <TableID>dbo_FACT</TableID>
+                    <ColumnID>NgayBan</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="a57b4dce-1de2-4cf6-90d7-e6ffd1b7549f">
+          <CubeDimensionID>Dim Chi Nhanh</CubeDimensionID>
+          <MeasureGroupID>Dim Nhan Vien</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="4eaf35aa-4b55-432d-96ab-3f3a85e1a3b6">
+          <CubeDimensionID>Dim Nha Xuat Ban</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6328ae43-d965-453c-91f5-9b29d9fb504b">
+              <AttributeID>Ma NXB</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Dim Sach</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Ma NXB</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5d18432e-c6e7-4f37-bc2e-e7aed3f7f7cf">
+          <CubeDimensionID>Dim Chu De</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a61112cf-5e59-42ed-b620-a4000de04899">
+              <AttributeID>Ma CD</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Dim Sach</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Ma CD</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="264caecd-a990-4af6-a369-26732560fd8e">
+          <CubeDimensionID>Dim Nhan Vien - Ma CN</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="34c6b4cc-5987-4268-9061-ad98a9c86df6">
+              <AttributeID>Ma CN</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Dim Nhan Vien</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Ma CN</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="4e30c613-73b7-4891-bc3c-042940f8102c">
+      <ID>Dim Time</ID>
+      <Name>Dim Time</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="88953baf-db51-4ca9-a567-70fa20914113">
+          <ID>Thang Ban</ID>
+          <Name>Thang Ban</Name>
+          <Source dwd:design-time-name="f17867ca-796a-48dd-b3ec-982cbbf1f578">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ed96c3df-f767-4a12-ba61-bacf6ad5da92">
+              <TableID>dbo_Dim_Time</TableID>
+              <ColumnID>ThangBan</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="73b56891-87bd-40ce-b282-b3227aa75e85">
+          <ID>Nam Ban</ID>
+          <Name>Nam Ban</Name>
+          <Source dwd:design-time-name="3f4ad8ad-51df-4047-94f7-d9c5fcf63e20">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8b757c9b-e26b-432d-b586-98ac0de364ae">
+              <TableID>dbo_Dim_Time</TableID>
+              <ColumnID>NamBan</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8f8a6719-97e5-45e1-80c8-156a7cb4557a">
+          <ID>Quy Ban</ID>
+          <Name>Quy Ban</Name>
+          <Source dwd:design-time-name="8ab47fb6-efc0-4f38-9212-45a5d9a79f36">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4192577b-b4a2-44fe-8bf4-7fa724cb8c8a">
+              <TableID>dbo_Dim_Time</TableID>
+              <ColumnID>QuyBan</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fa218b4f-96a1-4fa6-a8bf-3a976d854545">
+          <ID>Dim Time Count</ID>
+          <Name>Dim Time Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="dbad3710-5a47-4ed9-be12-cd2e9d3edb79">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e48773fd-d0c8-480e-aed0-cd8efeb3fad1">
+              <TableID>dbo_Dim_Time</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="e6b4a922-61e4-4c40-9696-1af00de15c4d">
+          <CubeDimensionID>Dim Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a78f9ae4-7f4e-4231-b1b1-4b6d1d06da88">
+              <AttributeID>Ngay Ban</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0bb82b33-51c9-4e00-a927-a1ac4b02384e">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ac040669-8ea1-47cd-b544-5c2f23acf88f">
+                    <TableID>dbo_Dim_Time</TableID>
+                    <ColumnID>NgayBan</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="80a0d5c5-8d31-4e33-88aa-5be8710c7d74">
+      <ID>Dim Khach Hang</ID>
+      <Name>Dim Khach Hang</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="40ca55c9-d0ce-40cf-8a0a-b544d153d276">
+          <ID>Dim Khach Hang Count</ID>
+          <Name>Dim Khach Hang Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="92c16c7c-7197-4caf-bdb3-15da34e1a64c">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="71c6fc6e-969b-4126-bd6a-38a9e805021d">
+              <TableID>dbo_Dim_KhachHang</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="0247cefd-f31a-4f0b-ab9f-2eece9e3f777">
+          <CubeDimensionID>Dim Khach Hang</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="20d11a0a-077f-46fc-85aa-99eaf9218f79">
+              <AttributeID>Ma KH</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="49d8d68a-1428-4cfc-a48d-28ce4c6b1eef">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e69ccc5b-0436-4a22-ae24-2c79e79f5d23">
+                    <TableID>dbo_Dim_KhachHang</TableID>
+                    <ColumnID>MaKH</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="c2782cab-6276-48f5-80da-e471efbb4c06">
+      <ID>Dim Nhan Vien</ID>
+      <Name>Dim Nhan Vien</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="404916b2-fe6c-4f9b-8ace-525f6932f425">
+          <ID>Dim Nhan Vien Count</ID>
+          <Name>Dim Nhan Vien Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="f9ef3b9f-1cf1-4642-9c17-2abd4f85d64b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="d5e3d14c-8f8b-4cee-addd-3172835dbe7f">
+              <TableID>dbo_Dim_NhanVien</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="25d6acb4-0e7a-4d38-85d5-eef5ce9a885c">
+          <CubeDimensionID>Dim Nhan Vien</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a674d75c-806b-47f0-a93c-07b9fdde08fd">
+              <AttributeID>Ma NV</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dc300ed7-feee-4fe8-9513-ea241efe73eb">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="adaa9e66-8741-4ecd-a328-f4e05a8cfb23">
+                    <TableID>dbo_Dim_NhanVien</TableID>
+                    <ColumnID>MaNV</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="819710cd-205e-484c-b6a4-7c7f29e7812a">
+          <CubeDimensionID>Dim Chi Nhanh</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ed4954db-e348-4b4e-98db-53e6c74bff7c">
+              <AttributeID>Ma CN</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5eb3bebe-d812-415c-b26b-2e535dace758">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c279123f-7d55-4ebd-863b-1ed302bbe32f">
+                    <TableID>dbo_Dim_NhanVien</TableID>
+                    <ColumnID>MaCN</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="e75c68ae-6757-4c96-9467-e0546827b2a0">
+      <ID>Dim Nha Xuat Ban</ID>
+      <Name>Dim Nha Xuat Ban</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="68d9de66-318c-481b-bf2d-98d82e32c55a">
+          <ID>Dim Nha Xuat Ban Count</ID>
+          <Name>Dim Nha Xuat Ban Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="2bee6b49-a7ad-40f3-bbf3-b2ffc56c3ceb">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ef621b20-02e4-4f8e-952b-1f742eecacd0">
+              <TableID>dbo_Dim_NhaXuatBan</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="d989887f-5b6f-4321-96ce-653de6f0072f">
+          <CubeDimensionID>Dim Nha Xuat Ban</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a621826d-cad0-4651-a921-550117e1347a">
+              <AttributeID>Ma NXB</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="75ea13df-2f6a-422d-acfe-9826f30c97ac">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9551d20-625c-4641-a9de-8b99cd3aaddc">
+                    <TableID>dbo_Dim_NhaXuatBan</TableID>
+                    <ColumnID>MaNXB</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="f79954e9-cc96-4389-affb-918f6364b3e8">
+      <ID>Dim Chu De</ID>
+      <Name>Dim Chu De</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="0aeb88ff-1936-4bc0-a8f6-7035cf47b39a">
+          <ID>Dim Chu De Count</ID>
+          <Name>Dim Chu De Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="b6b55201-18ee-4391-80c6-21639281a7e9">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="c9458f7a-cfc4-4dc8-b3b3-019c69cbfb3d">
+              <TableID>dbo_Dim_ChuDe</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="baeb3ebc-16b0-45a8-b145-a77da8bb0aaa">
+          <CubeDimensionID>Dim Chu De</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f36182a9-c1e2-4198-a379-1e4f791b0f7f">
+              <AttributeID>Ma CD</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="24f0b603-de9b-4818-9e8e-b30c81cd999a">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fa3a3562-0a16-4c90-b910-95636f4d4ca0">
+                    <TableID>dbo_Dim_ChuDe</TableID>
+                    <ColumnID>MaCD</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="7756e176-5ef9-4a45-a1e3-d52431c93a93">
+      <ID>Dim Chi Nhanh</ID>
+      <Name>Dim Chi Nhanh</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="d923decf-a21b-47f4-a041-400e2a144a2c">
+          <ID>Dim Chi Nhanh Count</ID>
+          <Name>Dim Chi Nhanh Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="48630d3d-f9eb-417f-9abe-1bfe0688619a">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e4ebf3a9-79ba-403d-8ddb-4c3f17c428b0">
+              <TableID>dbo_Dim_ChiNhanh</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="311474ec-c4de-4081-8b3e-3c6c2892e253">
+          <CubeDimensionID>Dim Chi Nhanh</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="163a59b0-6735-46fa-850a-7cf0d9cc551d">
+              <AttributeID>Ma CN</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fe597aaf-d310-4cbd-bc98-9c57f99bb9f3">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="333b164e-a89e-4eda-9b47-6aeef4a5b1d4">
+                    <TableID>dbo_Dim_ChiNhanh</TableID>
+                    <ColumnID>MaCN</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="86404809-f9ce-4cab-83bb-fbeac815b227">
+          <CubeDimensionID>Dim Nhan Vien</CubeDimensionID>
+          <MeasureGroupID>Dim Nhan Vien</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="9a83917a-32ab-4f65-8a9b-0826760f413b">
+          <CubeDimensionID>Dim Nhan Vien - Ma CN</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7596a4b0-90a4-4ca7-91c4-593497f22c4e">
+              <AttributeID>Ma CN</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="56b25e60-c6bd-4d44-8b16-64659b2786fe">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="af8ef9b0-20ee-4f38-a6a7-f9e793b14a30">
+                    <TableID>dbo_Dim_ChiNhanh</TableID>
+                    <ColumnID>MaCN</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="429ab82c-2137-41ca-b90a-1ead6193b7bf">
+    <DataSourceViewID>DWH Fahasa</DataSourceViewID>
+  </Source>
+</Cube>

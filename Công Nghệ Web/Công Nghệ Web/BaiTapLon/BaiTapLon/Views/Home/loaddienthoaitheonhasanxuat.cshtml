@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "loaddienthoaitheonhasanxuat";
+}
+@using BaiTapLon.Models;
+@model List<SANPHAM>
+<div class="container">
+<div class="row">
+
+    @foreach (var sp in Model)
+      {
+           <a href="@Url.Action("hienthichitiet", new { ms= @sp.MASANPHAM })" class="thumbnail" style="border:none">
+               <p style="text-align:center"> </p> 
+               <img src="~/Content/HinhAnh/@sp.HINHANH" alt="firl" style="width:310px;height:310px" /> 
+               <h2 style="color: black">@sp.TENSANPHAM</h2>
+               <h3 style="color: red">@sp.GIABAN đ</h3>
+           </a>
+      }
+</div>
+</div>
+  
